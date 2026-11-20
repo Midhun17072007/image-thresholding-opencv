@@ -82,7 +82,8 @@ else:
     plt.show()
 ```
 
-<img width="238" height="261" alt="image" src="https://github.com/user-attachments/assets/25a702b1-4fe0-407f-bb41-2dbaefde3703" />
+<img width="276" height="190" alt="image" src="https://github.com/user-attachments/assets/aea8e67a-dcca-4677-b5a5-4978b0a9de15" />
+
 
 
 ### ORIGINAL grayscale image
@@ -95,7 +96,8 @@ plt.title("Original Grayscale Image")
 plt.axis("off")
 plt.show()
 ```
-<img width="278" height="293" alt="image" src="https://github.com/user-attachments/assets/01f107a9-4f2a-4240-8370-c01c7cc60c10" />
+<img width="580" height="365" alt="image" src="https://github.com/user-attachments/assets/9952c445-41e0-4703-98a6-68fb0217fa48" />
+
 
 
 ### Global Thresholding
@@ -110,7 +112,7 @@ plt.title("Global Thresholding")
 plt.axis("off")
 plt.show()
 ```
-<img width="266" height="290" alt="image" src="https://github.com/user-attachments/assets/ee71acb2-4ffe-41ec-99b4-b324ee2fb35d" />
+<img width="311" height="203" alt="image" src="https://github.com/user-attachments/assets/8bba7eb9-b8a4-4c1c-afea-b6f85f5943e7" />
 
 
 ### Adaptive Thresholding
@@ -130,7 +132,8 @@ plt.title("Adaptive Thresholding")
 plt.axis("off")
 plt.show()
 ```
-<img width="321" height="297" alt="image" src="https://github.com/user-attachments/assets/878db372-2813-4bbd-8d74-95291590df80" />
+<img width="286" height="198" alt="image" src="https://github.com/user-attachments/assets/b520f406-4994-4c46-aa0b-518160bb5166" />
+
 
 
 ### Otsu's Thresholding
@@ -148,7 +151,8 @@ plt.title("Otsu's Thresholding")
 plt.axis("off")
 plt.show()
 ```
-<img width="281" height="300" alt="image" src="https://github.com/user-attachments/assets/218d6078-cde1-491c-9f4f-de8514c299dd" />
+<img width="280" height="198" alt="image" src="https://github.com/user-attachments/assets/98f4f3d3-4574-4687-812d-bb6c8a31e046" />
+
 
 
 
