@@ -59,9 +59,9 @@ Compare the results obtained from Global, Adaptive, and Otsu's thresholding meth
 
 ## Developed By
 
-**Name: Sharan Kumar G** 
+**Name: MIDHUN S** 
 
-**Register No:212224230260** 
+**Register No:212224230158** 
 
 ## Output
 
@@ -70,7 +70,7 @@ Compare the results obtained from Global, Adaptive, and Otsu's thresholding meth
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread("baseball.jpg")
+img = cv2.imread("mIDHUN.jpg")
 
 if img is None:
     print("Error: Image not found. Check the file path.")
@@ -90,7 +90,7 @@ else:
 ```
 import cv2
 import matplotlib.pyplot as plt
-img = cv2.imread("baseball.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("midhun.jpg", cv2.IMREAD_GRAYSCALE)
 plt.imshow(img, cmap="gray")
 plt.title("Original Grayscale Image")
 plt.axis("off")
@@ -105,7 +105,7 @@ plt.show()
 ```
 import cv2
 import matplotlib.pyplot as plt
-img = cv2.imread("baseball.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("midhun.jpg", cv2.IMREAD_GRAYSCALE)
 _, result = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
 plt.imshow(result, cmap="gray")
 plt.title("Global Thresholding")
@@ -120,7 +120,7 @@ plt.show()
 ```
 import cv2
 import matplotlib.pyplot as plt
-img = cv2.imread("baseball.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("midhun.jpg", cv2.IMREAD_GRAYSCALE)
 result = cv2.adaptiveThreshold(
     img, 255,
     cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
@@ -141,7 +141,7 @@ plt.show()
 ```
 import cv2
 import matplotlib.pyplot as plt
-img = cv2.imread("baseball.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("midhun.jpg", cv2.IMREAD_GRAYSCALE)
 _, result = cv2.threshold(
     img, 0, 255,
     cv2.THRESH_BINARY + cv2.THRESH_OTSU
